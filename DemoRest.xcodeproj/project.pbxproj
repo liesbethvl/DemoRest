@@ -15,6 +15,8 @@
 		395757C522004DE9009ED4FC /* UserPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395757C422004DE9009ED4FC /* UserPost.swift */; };
 		395757C822004EF7009ED4FC /* PostParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395757C722004EF7009ED4FC /* PostParser.swift */; };
 		395757CB22007ACA009ED4FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395757CA22007ACA009ED4FC /* DetailViewController.swift */; };
+		395757CD22009387009ED4FC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 395757CC22009387009ED4FC /* Settings.bundle */; };
+		395757CF22009967009ED4FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395757CE22009967009ED4FC /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		395757C422004DE9009ED4FC /* UserPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPost.swift; sourceTree = "<group>"; };
 		395757C722004EF7009ED4FC /* PostParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostParser.swift; sourceTree = "<group>"; };
 		395757CA22007ACA009ED4FC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		395757CC22009387009ED4FC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		395757CE22009967009ED4FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 				395757B922004A89009ED4FC /* Assets.xcassets */,
 				395757BB22004A89009ED4FC /* LaunchScreen.storyboard */,
 				395757BE22004A89009ED4FC /* Info.plist */,
+				395757CC22009387009ED4FC /* Settings.bundle */,
 			);
 			path = DemoRest;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				395757B422004A88009ED4FC /* ViewController.swift */,
 				395757CA22007ACA009ED4FC /* DetailViewController.swift */,
+				395757CE22009967009ED4FC /* LoginViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395757CD22009387009ED4FC /* Settings.bundle in Resources */,
 				395757BD22004A89009ED4FC /* LaunchScreen.storyboard in Resources */,
 				395757BA22004A89009ED4FC /* Assets.xcassets in Resources */,
 				395757B822004A88009ED4FC /* Main.storyboard in Resources */,
@@ -160,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395757CF22009967009ED4FC /* LoginViewController.swift in Sources */,
 				395757B522004A88009ED4FC /* ViewController.swift in Sources */,
 				395757B322004A88009ED4FC /* AppDelegate.swift in Sources */,
 				395757CB22007ACA009ED4FC /* DetailViewController.swift in Sources */,
